@@ -1,0 +1,30 @@
+@import "./social_media_icons.scss";
+@import "./hamburger.scss";
+
+nav {
+  display: flex;
+  justify-content: center;
+
+  a {
+    padding: 0 10px 0;
+    text-decoration: none;
+    color: white;
+
+    margin-right: 20px;
+  }
+  a:last-child {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .social-media-icons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -11px;
+  }
+}

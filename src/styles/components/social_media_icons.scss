@@ -1,0 +1,21 @@
+.social-media-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // margin-top: -75px;
+
+  i {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    transition: 0.7s;
+    width: 26px;
+  }
+
+  i:hover {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    transition: 0.5s;
+  }
+}

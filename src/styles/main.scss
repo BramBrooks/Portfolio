@@ -1,0 +1,32 @@
+@import "./resetStylesheet.scss";
+@import "./variables.scss";
+
+// body
+
+body {
+  background-color: $background-color;
+  width: 100%;
+  // min-width: 287px;
+  font-size: $font-size;
+  font-family: $font-family;
+  color: $font-color;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  // why is this margin-top needed?
+  margin-top: -50px;
+  opacity: 0.7;
+}
+
+.home-container {
+  display: flex;
+}
+
+@import "../styles/components/header.scss";
+@import "../styles/pages/homepage/main-content-banner.scss";
+@import "../styles/pages/homepage/footer-banner.scss";

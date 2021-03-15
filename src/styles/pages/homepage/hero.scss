@@ -1,0 +1,80 @@
+.hello-world-hero {
+  text-align: center;
+  font-size: 210px;
+  padding: 0 10px 0;
+  font-family: $hero-font-family;
+
+  border-radius: 25px;
+  opacity: 0.7;
+  line-height: 180px;
+  animation: fadein 15s;
+  transition-timing-function: ease-in;
+}
+
+@media screen and (max-width: $media-max-width-2) {
+  .hello-world-hero {
+    font-size: 180px;
+    line-height: 145px;
+  }
+}
+
+@media screen and (max-width: $media-max-width-3) {
+  .hello-world-hero {
+    font-size: 150px;
+    line-height: 120px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: $media-max-width-4) {
+  .hello-world-hero {
+    font-size: 120px;
+    line-height: 100px;
+  }
+}
+
+@media screen and (max-width: $media-max-width-5) {
+  .hello-world-hero {
+    font-size: 95px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: $media-max-width-6) {
+  .hello-world-hero {
+    font-size: 75px;
+    line-height: 70px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: $media-max-width-7) {
+  .hello-world-hero {
+    font-size: 45px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: $media-max-width-galaxy-fold) {
+  .hello-world-hero {
+    font-size: 65px;
+    line-height: 55px;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+
+// i-pad pro specific
+
+@media screen and (width: 1024px) and (height: 1366px) {
+  .hello-world-hero {
+    // background-color: red;
+    margin-top: 140px;
+  }
+}

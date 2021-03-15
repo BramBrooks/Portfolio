@@ -1,0 +1,84 @@
+// main content banner
+
+.main-content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 80px 2.5% 0;
+  width: 95%;
+
+  @import "../../components/social_media_icons.scss";
+  @import "../homepage/hero.scss";
+
+  .copyright {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 20px;
+    margin-top: 12px;
+  }
+
+  @media screen and (max-width: 1147px) {
+    .copyright {
+      margin-top: 102px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .copyright {
+      margin-top: 65px;
+      font-size: 19px;
+      display: none;
+    }
+    .social-media-icons {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .main-content {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-content {
+    margin-top: 40px;
+  }
+}
+
+//**********
+
+@media screen and (max-width: 490px) {
+  .main-content {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .main-content {
+    margin-top: 25px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .main-content {
+    margin-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+// ipad pro spefic
+
+@media screen and (width: 1024px) and (height: 1366px) {
+  .main-content {
+    .social-media-icons {
+      margin-top: 120px;
+    }
+    .copyright {
+      margin-top: 225px;
+    }
+  }
+}
