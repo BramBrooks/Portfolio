@@ -79,6 +79,13 @@ footer {
 }
 
 // here
+
+@media screen and (max-height: 700px) {
+  footer {
+    margin-top: 70px;
+  }
+}
+
 @media screen and (max-width: 1162px) {
   footer {
     margin-top: 80px;
