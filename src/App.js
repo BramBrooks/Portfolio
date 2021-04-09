@@ -82,23 +82,30 @@ function App() {
         </a>
 
         {/* link 2 */}
-
         <a
-          href="https://brambrooks-nc-news.netlify.app/"
+          href="https://www.bbc.co.uk/sport/football"
           target="_blank"
           rel="noopener noreferrer"
           className="footer-item"
         >
           {" "}
-          <p>Portfolio Piece 2:</p>
-          <p>Photography</p>
+          <p>BBC Football</p>
+          <p>(Placeholder) </p>
         </a>
 
         {/* link 3 */}
-        <div className="footer-item">
-          <p>Portfolio Piece 3:</p>
-          <p>Sound Engineer</p>
-        </div>
+
+        <a
+          href="https://www.piccadillyrecords.com/counter/index.php"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-item"
+        >
+          {" "}
+          <p>Piccadilly Records</p>
+          <p>(Placeholder) </p>
+          {/* <p>Records</p> */}
+        </a>
       </footer>
     </div>
   );
